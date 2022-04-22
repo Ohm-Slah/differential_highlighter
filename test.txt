@@ -1,3 +1,5 @@
-DICT_LABEL_INFO_BATCH_SERIAL_NUMBER_LABEL	[{"Count": "1", "Template": "HDRL-12-QR-SN-PN.btw", "Printer": "LABEL_PRINTER_HDRL-12", "confirm_sn_message": "None",  "Fields": {"SerialNumber": strSN, "PartNumber": strOrderPartNumber}, "Generate File": True}]	System.String	---
+This is the first line of text
 
-DICT_LABEL_INFO_Brrrrrrrrrrr_SERIAL_NUMBER_LABEL	[{"Count": "1", "Template": "HDRL-12-QR-SN-PN.btw", "Printer": "LABEL_PRINTER_HDRL-12", "confirm_sn_message": "None",  "Fields": {"SerialNumber": strSN, "PartNumber": strOrderPartNumber}, "Generate File": True}]	System.String	---
+This is the second line of text
+
+This is the third line of text

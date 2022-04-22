@@ -1,11 +1,13 @@
 @echo off
-echo Installing required packages...
+echo checking Python install...
 
 :: Check for Python Installation
 python3 --version 3>NUL
 if errorlevel 1 goto errorNoPython
 
 :: Reaching here means Python is installed.
+
+echo Installing required packages...
 
 pip3 install termcolor
 
