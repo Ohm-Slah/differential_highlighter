@@ -2,7 +2,7 @@
 echo checking Python install...
 
 :: Check for Python Installation
-python3 --version 3>NUL
+py --version 3>NUL
 if errorlevel 1 goto errorNoPython
 
 :: Reaching here means Python is installed.
@@ -11,7 +11,7 @@ echo Installing required packages...
 
 pip3 install termcolor
 
-python3 differential_highlighter.py
+py differential_highlighter.py
 
 pause
 

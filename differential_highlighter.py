@@ -46,20 +46,22 @@ for index,item in enumerate(data):
         elif s[0]=='+':
             print(u'Found missing {} at position {}\n'.format(s[-1],i))
             for k, j  in enumerate(data[index]):
-                if k == i:
+                print(k, j, i-2)
+                if k == i-2:
                     addIssues.append(s[-1])
                     addIssuesIndex.append(i)
         elif s[0]=='-':
             print(u'Found {} at position {}\n'.format(s[-1],i))
             for k, j  in enumerate(data[index]):
-                if k == i:
+                print(k, j, i-2)
+                if k == i-2:
                     subIssues.append(s[-1])
                     subIssuesIndex.append(i)
 
     addIssuesDict = dict(zip(addIssuesIndex, addIssues))
     subIssuesDict = dict(zip(subIssuesIndex, subIssues))
-    # print(addIssuesDict)
-    # print(subIssuesDict)
+    print(addIssuesDict)
+    print(subIssuesDict)
 
     addIssuesLen = len(addIssues)
     subIssuesLen = len(subIssues)
